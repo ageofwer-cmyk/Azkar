@@ -1,13 +1,13 @@
 {
-  "name": "WORKER_NAME",
+  "name": "azkar-bot",
   "main": "worker.js",
   "compatibility_date": "2026-10-01",
   "triggers": { "crons": ["* * * * *"] },
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "DATABASE_NAME",
-      "database_id": "DATABASE_ID"
+      "database_name": "azkar-db",
+      "database_id": "cf89132c-3c29-4dac-97ce-824549cccb80"
     }
   ]
 }
